@@ -1,15 +1,15 @@
-
- @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 body {
     background-color: #D6E2F0;
     box-sizing: border-box;
     margin: auto;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 h1 {
@@ -20,15 +20,14 @@ p {
     word-spacing: 5px;
     width: 90%;
     margin-left: 5%;
-    line-height: 1.3rem;
-    font-size: 18px;
+    font-size: large;
     color: #7B879D;
 }
 
 .container {
     background-color: #FFFFFF;
     max-width: 355px;
-    height: 550px;
+    /* height: 550px; */
     padding: 30px;
     border-radius: 4%;
     margin: auto;
@@ -49,20 +48,17 @@ p {
 }
 
 .content {
-text-align: center;
-font-family: "Outfit";
-font-size: 15px;
-}
-
-.attribution { 
-    font-size: 11px; 
     text-align: center;
-    display: flex; 
-    flex-direction: column;
-    line-height: 1rem;
+    font-family: "Outfit";
+    font-size: 15px;
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}  
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
 
